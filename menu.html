@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="E.j. Ezuma-Ngwu">
+        <meta name="keywords" content="Happy Day Dessert Factory, Pittsburgh Pennsylvania">
+        <meta name="description" content="Happy Day Dessert Factory">
+        <title>Happy Day Dessert Factory: Menu</title>
+        <!-- https://www.w3schools.com/howto/tryit.asp?font=Roboto%20Slab -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto Slab" rel="stylesheet">
+        <!-- https://www.w3schools.com/howto/tryit.asp?font=Oswald -->
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+        <link rel="stylesheet" media="all" type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" media="all" type="text/css" href="css/menu_styles.css" />
+        <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+        <link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css" />
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" type="text/javascript"> </script> <!--Import Jquery-->
+        <script src="js/script.js" type="text/javascript">		</script><script src="js/jquery-ui.min.js" type="text/javascript">		</script>
+        <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="https://code.js/jquery.lightbox.min.js" type="text/javascript"></script>
+        <!-- Didn't work in the script.js file so had to do it out here -->
+        <script>
+            $(function() {
+              $( "#tabs" ).tabs({
+                  event: "mouseover"
+              });
+                });
+            </script>
+    </head>
+<body>
+    <div id="container">
+        <div id="top_row">
+            <header>
+                <img src="images/logo.png" width="100" alt="Happy Days Dessert Factory Logo">
+            </header>
+            <nav>
+                <!-- FOR NAV USE ANGULAR JS FOR THE SIDE NAV BAR -->
+                <a href="index.html">HOME</a> |
+                <a href="promotions.html">PROMOTIONS</a> |
+                <a class="selected" href="menu.html">MENU & ORDER</a> |
+                <a href="news_media.html">MEDIA & REVIEWS</a> |
+                <a href="contact-info.html">CONTACT & INFO</a> |
+                <a href="mailing-list.html">MAILING LIST</a>
+            </nav>
+        </div>
+        <h2>Our Menu</h2>
+		<div id="tabs">
+		<h3>Here Are Some of Base Menu Items!</h3>
+			<ul>
+				<li><a href="#tabs-1">Ice Cream</a></li>
+				<li><a href="#tabs-2">Water Ice</a></li>
+				<li><a href="#tabs-3">Cookies</a></li>
+				<li><a href="#tabs-4">Cake</a></li>
+			</ul>
+			<div id="tabs-1">
+				<img src="images/cone.jpeg" height="288" alt="Image of Ice Cream Cone" />
+				<p>Our ice cream is made fresh, churned from the finest ingredients and 
+                    mixed with your choice of candy, cakes, fruits or nuts on a 
+                    frozen granite stone we proudly serve the best tasting,
+                     made-to-order ice cream you’ve ever had.</p>
+			</div><!--end tab 1-->
+			<div id="tabs-2">
+				<img src="images/water-ice.jpeg" height="288" alt="Image of Water Ice" />
+				<p>Our Dairy-Free Ice-Wateer Option is light and perfect for a summer's day.</p>
+			</div><!--end tab 2-->
+			<div id="tabs-3">
+				<img src="images/cookies.jpeg" height="288" alt="Image of Cookies" />
+				<p>Our cookies are baked fresh daily in the store. 
+				</p>
+			</div><!--end tab 3-->
+			<div id="tabs-4">
+				<img src="images/cake.webp" height="288" alt="Image of Cake" />
+				<p>Our Frozen Cakes are perfect for any celebration, occasion or just because you love them! 
+                    Some standard flavors are available in the store for immediate pickup. 
+                    Our amazing customized cakes can be made to order in 48 hours. 
+                    The cakes are currently available in an 8 inch round size.
+				</p>
+			</div><!--end tab 4-->
+			<button onclick="window.open('menu.pdf');">View Full Menu!</button>
+		</div><!--end Tabs-->
+		<h2>Order Online</h2>
+		<div id="order_online">
+		<button onclick="location.href='https://food.google.com/chooseprovider?restaurantId=/g/11j2gn67j3&g2lbs=ADZRdksqmjFOKyfqU1eg6GX--9Bnu1k022FFNa3GNNOj2FPqxFM_SQlZc9g8zo-vCu2ppx9_9ycr9SxZ0IdDKmM5SuTKvKkBVQ%3D%3D&hl=en-US&gl=us&cs=1&ssta=1&fo_m=MfohQo559jFvMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=AIUnZKrBNtqj5NoPrcyymAg&ei=AIUnZKrBNtqj5NoPrcyymAg&sei=CXcyajIe2saWEYbt7T6RuErq&utm_campaign&utm_source=search&addressId&orderType=2&partnerId&fulfillmentTime&menuSearchQuery&cartId&fo_s=OA%2CAH&dineInLocationId'" type="button">
+			Order Online</button>
+        </div>
+        
+        <footer>
+            <div id="contact"> 
+                <h3>Follow Us!</h3>
+                <a href="https://www.instagram.com/happydaydessertfactory/?hl=en" target="_blank"><img src="images/instagram.avif" width="50" alt="instagram Logo"/></a>
+                <a href="https://www.facebook.com/happydaydessertfactory/" target="_blank"><img src="images/facebook.png" width="50" alt="facebook Logo"/></a>
+            </div>
+            &copy; Happy Day Dessert Factory
+ 
+        </footer>
+    </div>
+
+</body>
+</html>

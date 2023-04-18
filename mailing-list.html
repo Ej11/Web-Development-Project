@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="E.j. Ezuma-Ngwu">
+        <meta name="keywords" content="Happy Day Dessert Factory, Pittsburgh Pennsylvania">
+        <meta name="description" content="Happy Day Dessert Factory">
+        <title>Happy Day Dessert Factory: Mailing List </title>
+        <!-- https://www.w3schools.com/howto/tryit.asp?font=Roboto%20Slab -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto Slab" rel="stylesheet">
+        <!-- https://www.w3schools.com/howto/tryit.asp?font=Oswald -->
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+        <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" media="all" type="text/css" href="css/mailing_styles.css" />
+        <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+        <link rel="stylesheet" media="all" type="text/css" href="css/parsley.css" />
+    
+        <!-- <link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css" /> -->
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" type="text/javascript"> </script> <!--Import Jquery-->
+        <script src="js/script.js" type="text/javascript">		</script>
+        <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="https://code.js/jquery.lightbox.min.js" type="text/javascript"></script>
+        <script src="js/parsley.js" type="text/javascript"></script>    
+    </head>
+</html>
+<body>
+    <div id="container">
+        <div id="top_row">
+            <header>
+                <img src="images/logo.png" width="100" alt="Happy Days Dessert Factory Logo">
+            </header>
+            <nav>
+                <a href="index.html">HOME</a> |
+                <a href="promotions.html">PROMOTIONS</a> |
+                <a href="menu.html">MENU & ORDER</a> |
+                <a href="news_media.html">MEDIA & REVIEWS</a> |
+                <a href="contact-info.html">CONTACT & INFO</a> |
+                <a class="selected" href="mailing-list.html">MAILING LIST</a>
+            </nav>
+        </div>
+            <div id="mailing_list_form">
+                <h2>Fill out this form to join our Mailing List!</h2>
+                <form id="list_form" data-parsley-validate=""><!--validate the form-->
+                        <legend>Tell me more about yourself</legend>
+                        <label for="fullname">Name:*</label> <br>
+                        <input type="text" class="form-control" name="fullname" value="" required="" data-parsley-length="[0, 20]"><br><br>
+                        <label for="zipcode">Zip Code:*</label><br/>
+                        <!--Don't know how to make the validation for specifc=ically numbers-->
+                        <input type="text" class="form-control" name="zipcode" value="" data-parsley-length="[5,5]" required=""><br/><br/>
+                        <label for ="signup">Would you like to subscribe to Happy Day Dessert Factory newsletter?*</label><br>
+                        <input type="checkbox" id="signup" name="signup" value="yes">Yes, please update me!<br><br>
+                        <label for="email">Please provide your email address:*</label><br>
+                        <input type="email" class="form-control" name="email" placeholder="abc@defg.com" data-parsley-trigger="change" required=""><br><br>
+                        <input type ="image" src="images/submit.png" alt="Submit button" name= "btnimage">
+                    </form>
+                </div> <!--End mailing list form-->
+
+        <!-- https://parsleyjs.org/doc/examples/simple.html -->
+        <!-- Didn't work in the script.js file so had to do it out here -->
+        <script type="text/javascript">
+            $(function () {
+              $('#list-form').parsley().on('field:validated', function() {
+                var ok = $('.parsley-error').length === 0;
+                $('.bs-callout-info').toggleClass('hidden', !ok);
+                $('.bs-callout-warning').toggleClass('hidden', ok);
+              })
+              .on('form:submit', function() {
+                return false; 
+              });
+            });
+            </script>
+   
+        <footer>
+            <div id="contact"> 
+                <h3>Follow Us!</h3>
+                <a href="https://www.instagram.com/happydaydessertfactory/?hl=en" target="_blank"><img src="images/instagram.avif" width="50" alt="instagram Logo"/></a>
+                <a href="https://www.facebook.com/happydaydessertfactory/" target="_blank"><img src="images/facebook.png" width="50" alt="facebook Logo"/></a>
+            </div>
+            &copy; Happy Day Dessert Factory
+ 
+        </footer>
+    </div>
+
+</body>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="E.j. Ezuma-Ngwu">
+        <meta name="keywords" content="Happy Day Dessert Factory, Pittsburgh Pennsylvania">
+        <meta name="description" content="Happy Day Dessert Factory">
+        <title>Happy Day Dessert Factory: Promotions </title>
+        <!-- https://www.w3schools.com/howto/tryit.asp?font=Roboto%20Slab -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto Slab" rel="stylesheet">
+        <!-- https://www.w3schools.com/howto/tryit.asp?font=Oswald -->
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+        <link rel="stylesheet" media="all" type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" media="all" type="text/css" href="css/promotions.css" />
+        <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+        <link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css" />
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" type="text/javascript"> </script> <!--Import Jquery-->
+        <script src="js/script.js" type="text/javascript">		</script><script src="js/jquery-ui.min.js" type="text/javascript">		</script>
+        <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="https://code.js/jquery.lightbox.min.js" type="text/javascript"></script>
+        <!-- Didn't work in the script.js file so had to do it out here -->
+        <script>
+            $(function() {
+                $( "#accordion" ).accordion();
+            });
+        </script>
+    
+    </head>
+<body>
+    <div id="container">
+        <div id="top_row">
+            <header>
+                <img src="images/logo.png" width="100" alt="Happy Days Dessert Factory Logo">
+            </header>
+            <nav>
+                <!-- FOR NAV USE ANGULAR JS FOR THE SIDE NAV BAR -->
+                <a href="index.html">HOME</a> |
+                <a class="selected" href="promotions.html">PROMOTIONS</a> |
+                <a href="menu.html">MENU & ORDER</a> |
+                <a href="news_media.html">MEDIA & REVIEWS</a> |
+                <a href="contact-info.html">CONTACT & INFO</a> |                
+                <a href="mailing-list.html">MAILING LIST</a>
+            </nav>
+        </div>
+        <h2>Take a Look at our Promotions!</h2>
+    <div id="promotions">
+        <div id="accordion">
+            <h4>Online Order Only Deal!</h4>
+                <div>
+                    <h3>Party Pack Discount!</h3>
+                    <p>On Large Orders over $50 you will get 20% off your order.
+                    </p>
+                    <img src="images/Ice-cream.jpeg" height="400" alt="Image of Ice-cream" />
+                </div><!--end party pack-->
+            <h4>Limited Time Deal!</h4>
+                <div>
+                    <h3>Buy-One-Get-One-Free on All Ice Cream!</h3>
+                    <p>Available until May 1, 2023.</p>
+                    <img src="images/two-ice-cream.webp" height="400" alt="Image of two ice cream" />
+                </div><!--end bogo-->
+            <h4>Daily Deal</h4>
+                <div>
+                    <h3>Get a Free Cookie on Your Purchase of $10 or more!</h3>
+                    <p>Enjoy a daily fresh cookie when ordering for the family!</p>
+                    <img src="images/cookies.jpeg" height="400" alt="Image of free cookies" />
+                </div><!--end cookie-->
+        </div><!--end accordion-->
+        </div><!--end promotions-->
+        <footer>
+            <div id="contact"> 
+                <h3>Follow Us!</h3>
+                <a href="https://www.instagram.com/happydaydessertfactory/?hl=en" target="_blank"><img src="images/instagram.avif" width="50" alt="instagram Logo"/></a>
+                <a href="https://www.facebook.com/happydaydessertfactory/" target="_blank"><img src="images/facebook.png" width="50" alt="facebook Logo"/></a>
+            </div>
+            &copy; Happy Day Dessert Factory
+ 
+        </footer>
+    </div>
+
+</body>
+</html>
