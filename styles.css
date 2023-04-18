@@ -1,0 +1,109 @@
+body {
+    font-family:"Roboto Slab";
+    font-size:100%;
+    line-height: 1.7em;
+    /* https://www.w3schools.com/cssref/pr_background-color.php */
+    background-color: #FDF5D8;
+
+     
+
+}
+
+
+h1 {
+    font-family: "Oswald";
+    font-size: 3.5em;
+    color:#273043;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #273043;
+    font-family: "Oswald";
+}
+p { 
+    color:#273043;
+}
+
+
+h3 {
+    font-size: 1em;
+    font-family: "Oswald";
+    color:#273043;
+    text-align: center;
+
+}
+
+
+/* TOP ROW STYLES */
+#top_row nav a {
+	text-decoration: none;
+	font-size: 1.125em;
+	font-weight: 400;
+	padding: 15px;
+	color: #000000;
+}
+
+#top_row nav a.selected {
+	background: #faecb2;;
+	border-radius: 30px;
+	color: #0a0808;
+    border-style: solid;
+    border-color:#000000
+}
+
+#top_row nav a.selected:hover {
+	background: #f6f6f6;
+	border-radius: 30px;
+	color: #bbbbbb;
+}
+
+#top_row nav a:hover{
+	border-radius: 30px;
+	background: #f6f6f6;
+	color: #115f69;
+}
+#header_title {
+	float: left;
+    margin-top: -20px;
+
+}
+#top_row nav {
+	float: right;
+	margin-top: -50px;
+}
+
+#top_row {
+	border-radius: 40px;
+    padding: -5em 3em 4em 15em;
+	margin-bottom: 70px;
+    background-color: #83E0EC;
+
+}
+
+/* background-color: #faecb2; */
+/* Footer styling */
+footer {
+	clear: both;
+	margin: 0;
+	padding: .5em;
+	color: #333333;
+	font-variant: small-caps;
+	text-align: right;
+	font-size: .813em;
+	border-top: 1px dotted #cccccc;
+}
+
+#contact {
+	text-align: center;
+}
+/* -------------- */
+
+#container {
+	width: 90%;
+	margin: 10px auto;
+}
+
+html {overflow-y: scroll;}
+

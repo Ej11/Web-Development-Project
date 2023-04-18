@@ -1,0 +1,89 @@
+#contact-title h2 {
+    text-align:center;
+    font-size: 2.5em;
+}
+#map {
+	float: left;
+	width: 30%;
+	margin-right: 20%;
+	margin-left: 5%;
+    margin-bottom: 12%;
+}
+
+#map h2 {
+	margin-left: 15%;
+	text-align: center;
+}
+
+#hours {
+	margin-top: 115px;
+	text-align: center;
+	margin-right: 5%;
+}
+
+#hours h2 {
+	margin-bottom: -20px;
+    float: right;
+    margin-right: 40px;
+}
+
+#hours table {
+	background-color: #faecb2;
+	width: 35%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #273043;
+	border-spacing: 3px;
+	margin-top: 3.8%;
+	margin-bottom: 5%;
+	table-layout: auto;
+	border-collapse: collapse;
+	float: right;
+}
+#hours th {
+	height: 40px;
+	font-weight: bold;
+}
+#hours th, td {
+	padding: 6px;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	color: #273043;
+}    
+
+
+#contact_info table {
+	background-color: #faecb2;
+	width: 70%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #273043;
+	border-spacing: 3px;
+	margin-top: 10%;
+	margin-bottom: 15%;
+	margin-left: 15%;
+	margin-right: 15%;
+	table-layout: auto;
+	border-collapse: collapse;
+}
+#contact_info h2 {
+	margin-top: 10%;
+    text-align: center;
+    /* margin-right: 40px; */
+}
+
+#contact_info th {
+	height: 40px;
+	font-weight: bold;
+}
+#contact_info th, td {
+	padding: 6px;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	color: #333333;
+}
+
+tr:hover {background-color: rgb(229, 195, 102);}
+/* -----*/

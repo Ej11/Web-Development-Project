@@ -1,0 +1,14 @@
+#accordion {
+	width: 80%;
+	margin: auto;
+}
+p {
+	width: 45%;
+	float: left;
+}
+#accordion img {
+	float: right;
+}
+h2 {
+	text-align: center;
+}

@@ -1,0 +1,119 @@
+#news_title h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#news {
+	border-radius: 70px;
+	/* float: left; */
+	text-align: center;
+	margin: 0;
+	padding: 1em;
+	border-right: 1px dotted #ccc;
+	height: 580px;
+}
+#news h2 {
+	font-family: "Oswald";
+	font-size: 1.5em;
+	margin: 30px 0 10px 0;
+	float: center;
+	margin-bottom: 40px;
+}
+#online_articles {
+	border-radius: 40px;
+	background-color: #faecb2;
+	margin-left: 7.5%;
+	margin-right: 15%;
+	float: left;
+	width: 39%;
+    border-style: solid;
+    border-color: #273043;
+}
+#online_articles h3 {
+	text-align: center;
+    font-family: "Roboto Slab";
+
+}
+#online_articles button {
+	width: 80%;
+	background-color:#e7d178;
+  	border: none;
+	border-radius: 30px;
+  	color: #273043;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "Roboto Slab";
+    border-style: solid;
+    border-color: #273043;
+}
+#online_articles button:hover {
+	font-size: 21px;
+	background-color: #d6c16e; 
+}
+#online_articles a {
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: 400;
+	padding: 15px;
+	color: #000000;
+}
+
+#news_story {
+	border-radius: 40px;
+	background-color: #faecb2;
+	float: left;
+	width: 30%;
+	margin-right: 7.5%;
+	height: 465px;
+	margin-top: 120px;
+    border-style: solid;
+    border-color: #273043;
+}
+#news_story h3 {
+	text-align: center;
+	margin-bottom: 60px;
+}
+#video {
+	float: center;
+}
+
+#yelp {
+	margin-top: 150px;
+	background-color: #faecb2;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	float: left;
+	text-align: center;
+	border-radius: 40px;
+	height: 580px;
+    border-style: solid;
+    border-color: #273043;
+
+}
+#yelp h3 {
+	text-align: center;
+	margin-bottom: 60px;
+}
+#review1 {
+	margin-left: 5%;
+	width: 30%;
+	float: left;
+}
+#review2 {
+	width: 30%;
+	float: left;
+}
+#review3 {
+	width: 30%;
+	float: left;
+}
+
+footer {
+    margin-bottom: 400px;
+}

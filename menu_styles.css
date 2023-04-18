@@ -1,0 +1,68 @@
+h2 {
+	float: center;
+	text-align: center;
+}
+
+#tabs button {
+	width: 70%;
+	background-color: #e7d178;
+  	border: none;
+	border-radius: 30px;
+  	color: #273043;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 20px;
+	margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: "Roboto Slab";
+    border-style: solid;
+    border-color: #273043;
+
+}
+#tabs button:hover {
+	font-size: 21px;
+	background-color: #e7ca58; 
+}
+#tabs {
+	border-radius: 40px;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	text-align: center;
+	height: 700px;
+	margin-bottom: 60px;
+	background-color: #faecb2;
+    border-style: solid;
+    border-color: #273043;
+}
+#order_online {
+	border-radius: 40px;
+	margin-top: 30px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+}
+#order_online button {
+	width: 25%;
+	background-color: #e7d178;
+  	border: none;
+	border-radius: 30px;
+  	color: #273043;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 20px;
+	margin-bottom: 60px;
+    font-family: "Roboto Slab";
+    border-style: solid;
+    border-color: #273043;
+
+}
+#order_online button:hover {
+	font-size: 21px;
+	background-color: #e7ca58; 
+}
