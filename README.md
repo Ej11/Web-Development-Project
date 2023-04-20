@@ -1,6 +1,7 @@
 # Web-Development-Project
 Built a new rendition of the Happy Day Dessert Factory Website from Scratch 
 
+Please view the website in a full screen browser
 
 <img width="1236" alt="Screen Shot 2023-04-18 at 4 44 23 PM" src="https://user-images.githubusercontent.com/99615036/232900846-fc760b65-b209-46d1-a27b-e85c610cebc7.png">
 <img width="1380" alt="Screen Shot 2023-04-18 at 4 44 38 PM" src="https://user-images.githubusercontent.com/99615036/232900876-98da5736-3efe-4955-919d-43cdb7805249.png">
